@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "624ad2b24acb6a14f4221695"
+  },
+  "active": true,
+  "name": "gestor",
+  "createdAt": {
+    "$date": "2023-10-09T23:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-09T23:00:00.000Z"
+  },
+  "__v": 0
+}]

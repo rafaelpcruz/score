@@ -22,14 +22,43 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+## Requisitos
+
+- Docker;
+- Docker Compose;
+- NodeJs v16.13.1 e NPM 8.1.2.
+
+## Detalhes técnicos
+
+- Especificação [JSON:API](https://jsonapi.org/);
+- Media Type [`application/soap+json`](https://www.iana.org/assignments/media-types/application/vnd.api+json).
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
 
+Baixe as dependências do projeto:
+
 ```bash
 $ npm install
+```
+
+Suba o container docker por meio do comando:
+
+```bash
+docker-compose up
+```
+
+Para subir os dados basicos no mongo local:
+
+```bash
+docker exec -it mongodb bash
+```
+
+```bash
+mongoimport --host mongo --authenticationDatabase admin --username score_user --password score_pwd --db scoredb --collection accounts --file /mongodata/accounts.json --jsonArray
 ```
 
 ## Running the app
