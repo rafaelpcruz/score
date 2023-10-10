@@ -1,0 +1,45 @@
+[{
+    "_id": {
+      "$oid": "624af57d4acb6a14f42216aa"
+    },
+    "accountId": {
+      "$oid": "624ad2b24acb6a14f4221695"
+    },
+    "username": "gestor",
+    "password": "1vp/8VA2W59+LOo+sCaL94J+FAKWxyRkAer13rZ//LA=",
+    "type": "basic",
+    "token": null
+  },{
+    "_id": {
+      "$oid": "624af57d4acb6a14f42216ab"
+    },
+    "accountId": {
+      "$oid": "624ad2b24acb6a14f4221695"
+    },
+    "username": "gestor",
+    "password": "1vp/8VA2W59+LOo+sCaL94J+FAKWxyRkAer13rZ//LA=",
+    "type": "oauth",
+    "token": "65ed1a59-7d72-11ed-842e-0050568179r2"
+  },{
+    "_id": {
+      "$oid": "636b0eaa61926d85c16f6347"
+    },
+    "accountId": {
+      "$oid": "624aeb724acb6a14f42216a4"
+    },
+    "username": "cliente",
+    "password": "1vp/8VA2W59+LOo+sCaL94J+FAKWxyRkAer13rZ//LA=",
+    "type": "basic",
+    "token": null
+  },{
+    "_id": {
+      "$oid": "636b0eaa61926d85c16f6348"
+    },
+    "accountId": {
+      "$oid": "624aeb724acb6a14f42216a4"
+    },
+    "username": "cliente",
+    "password": "1vp/8VA2W59+LOo+sCaL94J+FAKWxyRkAer13rZ//LA=",
+    "type": "oauth",
+    "token": "31ed1a21-7d72-11ed-84e2-0050568179r8"
+  }]

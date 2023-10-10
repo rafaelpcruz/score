@@ -2,8 +2,24 @@
   "_id": {
     "$oid": "624ad2b24acb6a14f4221695"
   },
+  "accountType": "manager",
   "active": true,
   "name": "gestor",
+  "createdAt": {
+    "$date": "2023-10-09T23:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-09T23:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "624aeb724acb6a14f42216a4"
+  },
+  "accountType": "client",
+  "active": true,
+  "name": "client",
   "createdAt": {
     "$date": "2023-10-09T23:00:00.000Z"
   },

@@ -58,7 +58,11 @@ docker exec -it mongodb bash
 ```
 
 ```bash
-mongoimport --host mongo --authenticationDatabase admin --username score_user --password score_pwd --db scoredb --collection accounts --file /mongodata/accounts.json --jsonArray
+mongoimport --host localhost --authenticationDatabase admin --username root --password pwd --db scoredb --collection accounts --file /mongodata/accounts.json --jsonArray
+```
+
+```bash
+mongoimport --host localhost --authenticationDatabase admin --username root --password pwd --db scoredb --collection auths --file /mongodata/auths.json --jsonArray
 ```
 
 ## Running the app
@@ -86,6 +90,17 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## API's
+As credenciais para consulmo dos serviços:
+
+Usuarios: gestor
+Senha: 123456789
+Authorization: Bearer 65ed1a59-7d72-11ed-842e-0050568179r2
+
+Usuarios: cliente
+Senha: 123456789
+Authorization: Bearer 31ed1a21-7d72-11ed-84e2-0050568179r8
 
 ## Support
 
